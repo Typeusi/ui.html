@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المقهى المصري</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- القائمة العلوية -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="https://api.iconify.design/lucide:coffee.svg" alt="شعار" class="logo-icon">
+                <span>المقهى المصري</span>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="#home">الرئيسية</a>
+                <a href="#menu">القائمة</a>
+                <a href="#about">عنا</a>
+                <a href="#contact">اتصل بنا</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <img src="https://api.iconify.design/lucide:menu.svg" alt="قائمة" class="menu-icon">
+            </button>
+        </div>
+    </nav>
+
+    <!-- القسم الرئيسي -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>المقهى المصري</h1>
+            <p>أصالة الطعم المصري في كل وجبة</p>
+            <a href="#menu" class="cta-button">تصفح القائمة</a>
+        </div>
+    </section>
+
+    <!-- قائمة الطعام -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>قائمة الطعام</h2>
+            <div class="menu-grid">
+                <div class="menu-category">
+                    <h3>المشروبات</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <span class="menu-item-name">شاي مصري</span>
+                                <span class="menu-item-price">15 جنيه</span>
+                            </div>
+                            <p>شاي أسود مصري أصيل</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <span class="menu-item-name">قهوة تركي</span>
+                                <span class="menu-item-price">20 جنيه</span>
+                            </div>
+                            <p>قهوة تركي على الرمل</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-category">
+                    <h3>المأكولات الشعبية</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <span class="menu-item-name">فول مدمس</span>
+                                <span class="menu-item-price">25 جنيه</span>
+                            </div>
+                            <p>فول مدمس بالزيت والطحينة</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <span class="menu-item-name">طعمية</span>
+                                <span class="menu-item-price">20 جنيه</span>
+                            </div>
+                            <p>طعمية مصرية بالفول المدشوش</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- معلومات عنا -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>عن مقهانا</h2>
+                    <p>نقدم لكم أشهى المأكولات المصرية التقليدية في أجواء عصرية مريحة. نحرص على اختيار أفضل المكونات لضمان تجربة طعام لا تُنسى.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-4.0.3" alt="المقهى">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- معلومات الاتصال -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>اتصل بنا</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <img src="https://api.iconify.design/lucide:map-pin.svg" alt="موقع" class="contact-icon">
+                    <h3>العنوان</h3>
+                    <p>شارع المعز، القاهرة</p>
+                </div>
+                <div class="contact-card">
+                    <img src="https://api.iconify.design/lucide:phone.svg" alt="هاتف" class="contact-icon">
+                    <h3>الهاتف</h3>
+                    <p>+20 123 456 789</p>
+                </div>
+                <div class="contact-card">
+                    <img src="https://api.iconify.design/lucide:clock.svg" alt="ساعات العمل" class="contact-icon">
+                    <h3>مواعيد العمل</h3>
+                    <p>يومياً: 8 صباحاً - 12 مساءً</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="https://api.iconify.design/lucide:coffee.svg" alt="شعار" class="footer-logo">
+                <h3>المقهى المصري</h3>
+                <div class="social-links">
+                    <a href="#">فيسبوك</a>
+                    <a href="#">انستجرام</a>
+                    <a href="#">تويتر</a>
+                </div>
+                <p class="copyright">جميع الحقوق محفوظة © 2024</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
